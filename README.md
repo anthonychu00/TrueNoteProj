@@ -4,7 +4,7 @@ Example:
 
 Finding the notes in the sheet music.
 
-![MatchingC](https://user-images.githubusercontent.com/38588759/97214659-c8216900-1799-11eb-84db-5b13f6012a09.png)
+![MatchingC](https://user-images.githubusercontent.com/38588759/97217001-00767680-179d-11eb-8b09-b5ff3b09ce89.png)
 
 Contextualizing the notes and printing them out.
 
