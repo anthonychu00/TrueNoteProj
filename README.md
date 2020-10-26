@@ -18,3 +18,5 @@ Weaknesses of the template matching model:
 - It can find many false positives and find the same match "twice". These need to be filtered out of the final output.
 
 - You have to scan the image multiple times, but I'm not sure how avoidable this is.
+
+- Finding eighth notes is clunky since the note's head looks the same as a quarter note, would have to take into account the other eighth.
