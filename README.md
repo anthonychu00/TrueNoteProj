@@ -8,4 +8,4 @@ Finding the notes in the sheet music.
 
 Contextualizing the notes and printing them out.
 
-![NoteOutput](https://user-images.githubusercontent.com/38588759/97214389-6f51d080-1799-11eb-98b7-5b7edf5f74ea.png)
+![Notes](https://user-images.githubusercontent.com/38588759/97217595-ea1cea80-179d-11eb-9de2-e94b364a7c62.png)
