@@ -9,3 +9,12 @@ Finding the notes in the sheet music.
 Contextualizing the notes and printing them out.
 
 ![Notes](https://user-images.githubusercontent.com/38588759/97217595-ea1cea80-179d-11eb-9de2-e94b364a7c62.png)
+
+
+Weaknesses of the template matching model:
+
+- If you do not have enough templates for the model to match against, it might miss some possible matches. This can be remedied by adding more templates, but it would cause the tool to run slower.
+
+- It can find many false positives and find the same match "twice". These need to be filtered out of the final output.
+
+- You have to scan the image multiple times, but I'm not sure how avoidable this is.
