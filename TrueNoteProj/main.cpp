@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
 	Mat grayImage;
-	Mat image = imread("images/samples/emblem.jpg");
+	Mat image = imread("images/sheets/emblem.jpg");
 	vector<Box> staffMatches, sharpMatches, flatMatches, quarterMatches, halfMatches, wholeMatches;
 	vector<Note> allNotes, barNotes, sharps, flats;
 	unordered_map<int, int> heightMap;

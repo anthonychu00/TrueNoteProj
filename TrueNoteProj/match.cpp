@@ -1,13 +1,13 @@
 #include "match.h"
 
-vector<Mat> staffArr = { imread("images/template/staff.png", 0), imread("images/template/staff2.png", 0) };
-vector<Mat> quarterArr = { imread("images/template/quarter.png", 0), imread("images/template/solid-note.png", 0) };
-vector<Mat> sharpArr = { imread("images/template/sharp.png", 0) };
-vector<Mat> flatArr = { imread("images/template/flat-line.png", 0), imread("images/template/flat-space.png", 0) };
-vector<Mat> halfArr = { imread("images/template/half-space.png", 0), imread("images/template/half-note-line.png", 0),
-					imread("images/template/half-line.png", 0) , imread("images/template/half-note-space.png", 0) };
-vector<Mat> wholeArr = { imread("images/template/whole-space.png", 0) , imread("images/template/whole-note-line.png", 0),
-					imread("images/template/whole-line.png", 0) , imread("images/template/whole-note-space.png", 0) };
+vector<Mat> staffArr = { imread("images/templates/staff.png", 0), imread("images/templates/staff2.png", 0) };
+vector<Mat> quarterArr = { imread("images/templates/quarter.png", 0), imread("images/templates/solid-note.png", 0) };
+vector<Mat> sharpArr = { imread("images/templates/sharp.png", 0) };
+vector<Mat> flatArr = { imread("images/templates/flat-line.png", 0), imread("images/templates/flat-space.png", 0) };
+vector<Mat> halfArr = { imread("images/templates/half-space.png", 0), imread("images/templates/half-note-line.png", 0),
+					imread("images/templates/half-line.png", 0) , imread("images/templates/half-note-space.png", 0) };
+vector<Mat> wholeArr = { imread("images/templates/whole-space.png", 0) , imread("images/templates/whole-note-line.png", 0),
+					imread("images/templates/whole-line.png", 0) , imread("images/templates/whole-note-space.png", 0) };
 
 int staffLower = 50, sharpLower = staffLower, flatLower = staffLower, quarterLower = staffLower, halfLower = staffLower, wholeLower = staffLower;
 int staffUpper = 150, sharpUpper = staffUpper, flatUpper = staffUpper, quarterUpper = staffUpper, halfUpper = staffUpper, wholeUpper = staffUpper;
