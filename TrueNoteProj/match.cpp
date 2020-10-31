@@ -1,13 +1,13 @@
 #include "match.h"
 
-vector<Mat> staffArr = { imread("resources/template/staff.png", 0), imread("resources/template/staff2.png", 0) };
-vector<Mat> quarterArr = { imread("resources/template/quarter.png", 0), imread("resources/template/solid-note.png", 0) };
-vector<Mat> sharpArr = { imread("resources/template/sharp.png", 0) };
-vector<Mat> flatArr = { imread("resources/template/flat-line.png", 0), imread("resources/template/flat-space.png", 0) };
-vector<Mat> halfArr = { imread("resources/template/half-space.png", 0), imread("resources/template/half-note-line.png", 0),
-					imread("resources/template/half-line.png", 0) , imread("resources/template/half-note-space.png", 0) };
-vector<Mat> wholeArr = { imread("resources/template/whole-space.png", 0) , imread("resources/template/whole-note-line.png", 0),
-					imread("resources/template/whole-line.png", 0) , imread("resources/template/whole-note-space.png", 0) };
+vector<Mat> staffArr = { imread("images/template/staff.png", 0), imread("images/template/staff2.png", 0) };
+vector<Mat> quarterArr = { imread("images/template/quarter.png", 0), imread("images/template/solid-note.png", 0) };
+vector<Mat> sharpArr = { imread("images/template/sharp.png", 0) };
+vector<Mat> flatArr = { imread("images/template/flat-line.png", 0), imread("images/template/flat-space.png", 0) };
+vector<Mat> halfArr = { imread("images/template/half-space.png", 0), imread("images/template/half-note-line.png", 0),
+					imread("images/template/half-line.png", 0) , imread("images/template/half-note-space.png", 0) };
+vector<Mat> wholeArr = { imread("images/template/whole-space.png", 0) , imread("images/template/whole-note-line.png", 0),
+					imread("images/template/whole-line.png", 0) , imread("images/template/whole-note-space.png", 0) };
 
 int staffLower = 50, sharpLower = staffLower, flatLower = staffLower, quarterLower = staffLower, halfLower = staffLower, wholeLower = staffLower;
 int staffUpper = 150, sharpUpper = staffUpper, flatUpper = staffUpper, quarterUpper = staffUpper, halfUpper = staffUpper, wholeUpper = staffUpper;
